@@ -18,7 +18,6 @@ class Portfolio extends StatelessWidget {
 class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Color(0xFF95A2F1),
       body: Column(
